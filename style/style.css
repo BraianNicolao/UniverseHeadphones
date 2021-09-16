@@ -53,16 +53,21 @@
   color: var(--silver);
 }
 /*Box-imagem*/
-.box{
-  display: flex;
-  flex-wrap: wrap;
-  margin: 10px auto;
+.introducao{
   width: 95%;
   height: 500px;
-  background-image: url(./img/Pensamento.jpg);
-  background-repeat: no-repeat;
+  margin: 15px auto;
+  
+  background: url(./img/Pensamento.jpg) no-repeat center;
   background-size: cover;
 }
+
+.container h1{
+  text-align: center;
+
+}
+
+
 
 
 
