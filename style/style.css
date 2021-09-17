@@ -115,14 +115,13 @@
   align-items: center;
 }
 .price{
-  border: 2px solid;
   width: 80%;
   height: 80%;
   margin: 0 auto;
 }
 .price h2{
   text-align: center;
-  padding: 10px;
+  padding: 20px;
 }
 .container-price-info{
   display: flex;
@@ -138,7 +137,18 @@
 }
 
 .button{
-  display: inline-block;
+  width: 100%;
+  border-radius: 10px;
+  padding: 10px;
+  text-transform: uppercase;
+  color: black;
+  font-weight: 600;
+  background: var(--silver);
+  box-shadow: 0 1px 5px 1px rgba(0,0,0,.15);
+}
+
+.button:hover{
+  background: rgb(169,169,169);
   
 }
 
