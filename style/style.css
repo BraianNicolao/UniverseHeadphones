@@ -73,10 +73,12 @@
   text-align: center;
   padding-top: 100px;
   margin: 10px;
+  padding-left: 300px;
 }
 
 .container-titulo blockquote{
   text-align: center;
+  padding-left: 300px;
 }
 
 .container-titulo blockquote::before{
@@ -86,12 +88,9 @@
   height: 3px;
   background: black;
   margin: 10px auto;
-}
-
-
-.container-titulo cite{
   
 }
+
 
 
 
