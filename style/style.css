@@ -91,10 +91,56 @@
 }
 /*Product*/
 .product{
-  border: 2px solid green;
+  display: flex;
+  flex-wrap: nowrap;
+  width: 95%;
+  height: 400px;
+  margin: 0px 15px 0 15px;
 }
 
+.container-product{
+  width: 100%;
+  height: 400px;
+  background: #edeae8;
+}
+.headphone-universe{
+  width: 100%;
+  height: 100%;
+}
+.container-price{
+  display: flex;
+  width: 100%;
+  height: 400px;
+  background: #edeae8;
+  align-items: center;
+}
+.price{
+  border: 2px solid;
+  width: 80%;
+  height: 80%;
+  margin: 0 auto;
+}
+.price h2{
+  text-align: center;
+  padding: 10px;
+}
+.container-price-info{
+  display: flex;
+  flex-wrap: nowrap;
+  padding: 15px;
+}
+.info-price{
+  width: 40%;
+}
+.price-info{
+  color: #4d4d4d;
+  text-align: left;
+}
 
+.button{
+  display: inline-block;
+  
+}
 
 
 
