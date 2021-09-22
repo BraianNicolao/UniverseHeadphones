@@ -7,7 +7,7 @@
   margin: 0px;
   font-family: 'Roboto', sans-serif;
 }
-
+  
 /*Header*/
 .header-container{
   border-top: 3px solid var(--silver);
@@ -67,8 +67,7 @@
   width: 100%;
   height: 400px;
 }
-.container-titulo h1{
-}
+
 #titulo{
   text-align: center;
   padding-top: 100px;
@@ -94,10 +93,10 @@
   display: flex;
   flex-wrap: nowrap;
   width: 95%;
-  height: 400px;
+  height: 450px;
   margin: 0px 15px 0 15px;
+  background: #edeae8;
 }
-
 .container-product{
   width: 100%;
   height: 400px;
@@ -118,10 +117,15 @@
   width: 80%;
   height: 80%;
   margin: 0 auto;
+  padding: 10px;
 }
 .price h2{
   text-align: center;
   padding: 20px;
+}
+
+.price-p{
+  padding-bottom: 10px;
 }
 .container-price-info{
   display: flex;
@@ -136,8 +140,10 @@
   text-align: left;
 }
 
+
 .button{
   width: 100%;
+  border: none;
   border-radius: 10px;
   padding: 10px;
   text-transform: uppercase;
@@ -146,10 +152,16 @@
   background: var(--silver);
   box-shadow: 0 1px 5px 1px rgba(0,0,0,.15);
 }
-
+.space::before{
+  content: '';
+  display: block;
+  width: 400px;
+  height: 3px;
+  background:  #4d4d4d;
+  margin: 10px auto;
+}
 .button:hover{
   background: rgb(169,169,169);
-  
 }
 
 
