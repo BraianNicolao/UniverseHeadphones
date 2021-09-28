@@ -306,6 +306,7 @@
 }
 .address ul{
   display: flex;
+  flex-wrap: wrap;
 }
 
 .address li{
@@ -332,6 +333,28 @@
   }
 }
 
+/*Mobile*/
+
+@media (max-width: 1024px){
+  
+  .introducao{
+    width: 80%;
+  }
+  .product{
+    width: 80%;
+  }
+  .music-everywhere{
+    width: 80%;
+  }
+  .newsletter{
+    width: 80%;
+  }
+
+  .address{
+    width: 100%;
+    flex-wrap: wrap;
+  }
+}
 
 
 
