@@ -314,25 +314,6 @@
   padding: 10px;
 }
 
-
-@media (min-width: 960px){
-  .introducao{
-    width: 75%;
-  }
-  .product{
-    width: 75%;
-  }
-  .music-everywhere{
-    width: 75%;
-  }
-  .newsletter{
-    width: 75%;
-  }
-  .container-footer{
-    width: 75%;
-  }
-}
-
 /*Mobile*/
 
 @media (max-width: 1024px){
@@ -355,6 +336,31 @@
     flex-wrap: wrap;
   }
 }
+
+@media (min-width: 768px){
+  .header-container ul li{
+    padding: 0 10px;
+  }
+  .introducao{
+    width: 90%;
+  }
+  .product{
+    width: 90%;
+  }
+  .music-everywhere{
+    width: 90%;
+  }
+  .newsletter{
+    width: 90%;
+  }
+  .container-finale{
+    height: auto;
+  }
+  .address{
+    width: 100%;
+  }
+}
+
 
 
 
