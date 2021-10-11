@@ -1,6 +1,6 @@
 # Universe Headphones <h1>
 
-Este projeto é um mero demonstrativo da criação de layout utilizando-se o flexbox.
+Universe Headphones é um projeto pensado na utilização do Flexbox, simulando um e-commerce de Headphones personalizados.
 
 1. Na imagem abaixo, é possível identificar a home, que faz uma alusão a venda de Headphones personalizados.
 2. Podemos interagir com os demais links de navegação para entrar na classificação desejada pelo cliente.
